@@ -6,7 +6,10 @@ function validation(){
     var passWord = document.getElementById('password').value;
 
     if((email == eMail) && (password == passWord)) {
-        swal("Welcome back!");
+        swal("Welcome back!").then(function()
+        {
+            window.location = "redirectURL";
+        });
     }
     else{
         sweetAlert("Oops...", "Wrong Username or password");

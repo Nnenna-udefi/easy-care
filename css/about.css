@@ -176,14 +176,12 @@ button:hover{
 button{
     background-color: #001A41;
     border-radius: 4px;
-    padding: 1.2rem 6rem;
+    padding: 1.2rem 5rem;
     color: #fff;
     text-transform: uppercase;
     font-size: 1.2rem;
 }
-/* .team-member-img + .team-member-img{
-    margin-left: 5rem;
-} */
+
 input{
     padding: 1.2rem 5rem;
     font-size: 1.2rem;
@@ -288,22 +286,20 @@ footer{
     text-transform: capitalize;
     margin-left: 3rem;
 }
-@media screen and (min-width:560px){
+@media screen and (min-width:600px){
     .row{
         display:grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
-  
-@media screen and (min-width:800px) {
+ 
+@media screen and (min-width:780px) {
     .nav-img{
         width: 5%;
     }
     .nav-log{
         display: none;
     }
-
-  
     #icon{
         display: hidden;
     }
@@ -320,22 +316,15 @@ footer{
     .row{
         display: flex;
     }
-    .connect-text{
-        padding: 4rem 4rem 4rem 20rem;
-    }
-    .subscribe{
-        margin-left: 6rem;
-        text-align: left;
-    }
+    
     .team{
-        padding: 4rem 10rem;
+        padding: 4rem 5rem;
     }
     .values{
-        padding: 2rem 10rem;
+        padding: 2rem 5rem;
     }
     .mission-statement{
         width: 100%;
-        /* margin-right: 6rem; */
     }
     .mission-statement p{
         width: 70%;
@@ -357,7 +346,7 @@ footer{
         margin-left: 6rem;
     }
     .mission{
-        padding: 0 10rem;
+        padding: 0 5rem;
     }
     .hero h1{
         font-size: 3.2rem;
@@ -382,6 +371,21 @@ footer{
     .google-play{
         width: 45%;
     }
+}
+    @media screen and (min-width:1200px) {
+        .connect-text{
+            padding: 4rem 4rem 4rem 20rem;
+        }
+        .subscribe{
+            margin-left: 6rem;
+            text-align: left;
+        }
+        .connect-btn{
+            background-color: #fff;
+            color: #454843;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
 }
     @media screen and (max-width:890px) {
         .nav-img{
