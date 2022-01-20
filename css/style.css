@@ -2,11 +2,12 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     margin: 0 auto;
-    /* padding: 4rem 6rem; */
 }
 
 
@@ -19,7 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding: 0 4rem;
+    padding: 0 2rem;
 }
 .menu{
     width: 35px;
@@ -30,7 +31,7 @@ nav{
     transition: 0.3s ease-in-out;
 }
 .hamburger{
-    margin-top: 1rem;
+    margin-top: .4rem;
     display: none;
     cursor: pointer;
 }
@@ -86,7 +87,7 @@ nav{
 .hero-btn{
         background-color: #28A63D;
         color: #fff;
-        padding: .5em .5em; 
+        padding: .4em .35em; 
         text-transform: capitalize;
         text-decoration: none;
         margin: 3rem;
@@ -112,14 +113,14 @@ nav{
 }
 
 h1{
-    line-height: 4.3rem;
-    font-size: 2.8rem;
+    line-height: 3rem;
+    font-size: 2.2rem;
     font-family: 'Lora', serif;
     font-weight: 600;
 }
 p{
     line-height: 1.7rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
 }
 h2{
@@ -230,12 +231,12 @@ span{
 .badges2{
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
     margin: 2rem 2rem 6rem 2rem;
-    padding: 2rem;
-    line-height:29px;
+    padding: 1.5rem;
+    line-height:19px;
     position: relative;
 }
 .badges2-p{
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
 .badges2-img{
     width: 100px;
@@ -245,7 +246,6 @@ span{
     background-color: #fff;
     position: absolute;
     right: 10%;
-    /* top: 50px; */
     justify-content: flex-end;
 }
 .badges2 img{
@@ -381,6 +381,9 @@ footer{
     .services-badges{
         column-count: 1.5;
     }
+    .hamburger{
+        margin-top: 1rem;
+    }
 }
   
 @media screen and (min-width:800px) {
@@ -392,6 +395,7 @@ footer{
     }
     h1{
         font-size:3.75rem;
+        line-height: 4.3rem;
     }
     h2{
         font-size:2.25rem;
@@ -409,6 +413,7 @@ footer{
         display: flex;
         align-items: center;
     }
+  
     .row{
         display: flex;
     }
@@ -465,6 +470,9 @@ footer{
     }
     .badges3{
         width: 100%;
+    }
+    .hero-btn{
+        padding: .5rem .5rem;
     }
 
 }

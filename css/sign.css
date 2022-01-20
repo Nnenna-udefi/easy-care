@@ -100,36 +100,39 @@ font-size: 1.2rem;
   }
   .google-icon i{
       position: absolute;
-      padding: 1.2rem 5rem;
+      padding: .6rem 1rem;
   }
   .terms{
       display: flex;
       padding: 0;
       margin: 0;
-      margin-left: -8rem;
+      margin-left: -4rem;
       width: 100%;
   }
   .terms label{
-      margin-left: -8rem;
+      margin-left: -4rem;
   }
-
   
   i{
       width: 100%;
   }
   .fa-google{
-    color: linear-gradient(90deg,
-        #e1183a,
-        #f0c818,
-        #21c05a,
-        #4e81ee
-         );
+    color:#4e81ee;
   }
 
 @media screen and (min-width: 800px) {
   .google-btn{
     padding: 1rem 7rem;
 
+  }
+  .google-icon i{
+    padding: .6rem 3rem;
+  }
+  .terms label{
+    margin-left: -8rem;
+  }
+  .terms{
+    margin-left: -8rem;
   }
   
 }

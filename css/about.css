@@ -18,7 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding: 0 4rem;
+    padding: 0 2rem;
 }
 .menu{
     width: 35px;
@@ -29,7 +29,7 @@ nav{
     transition: 0.3s ease-in-out;
 }
 .hamburger{
-    margin-top: 1rem;
+    margin-top: .4rem;
     display: none;
     cursor: pointer;
 }
@@ -84,9 +84,6 @@ a{
     padding: 6rem 2rem;
     
 }
-.header{
-    position: relative;
-}
 .mission{
     text-align: center;
     margin: auto;
@@ -106,21 +103,21 @@ a{
     background-color: #24BEB6;
     box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.25);
     margin: 2rem 2rem 6rem 2rem;
-    padding: 6rem 2rem 2rem 2rem;
+    padding: 4rem 1.5rem 2rem 1.5rem;
     color: #fff;
 }
 .badges2{
     background-color: #67DF6E;
     box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.25);
     margin: 2rem 2rem 6rem 2rem;
-    padding: 6rem 2rem 2rem 2rem;
+    padding: 4rem 1.5rem 2rem 1.5rem;
     color: #fff;
 }
 .badges3{
     background-color: #5E90E7;
     box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.25);
     margin: 2rem 2rem 6rem 2rem;
-    padding: 6rem 2rem 2rem 2rem;
+    padding: 4rem 1.5rem 2rem 1.5rem;
     color: #fff;
 }
 .team-members{
@@ -151,9 +148,9 @@ a{
 .connect-btn{
     background-color: #fff;
     color: #454843;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     text-transform: uppercase;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 .connect-head{
@@ -176,7 +173,7 @@ button:hover{
 button{
     background-color: #001A41;
     border-radius: 4px;
-    padding: 1.2rem 5rem;
+    padding: 1.2rem 4rem;
     color: #fff;
     text-transform: uppercase;
     font-size: 1.2rem;
@@ -204,7 +201,7 @@ margin: 1rem 0;
 .icon {
     padding: 10px;
     color: #5D5F5B;
-    min-width: 50px;   
+    /* min-width: 50px;    */
 }
 .input-field {
     width: 100%;
@@ -220,7 +217,6 @@ margin: 1rem 0;
 footer{
     background-color: #001A41;
     color: #fff;
-    
 }
 .footer{
     padding: 5rem 5rem 0 5rem;
@@ -258,8 +254,8 @@ footer{
 }
 
 .fa {
-    padding: 15px;
-    font-size: 1.9rem;
+    padding: 16px;
+    font-size: 1.5rem;
     width: 30px;
     text-align: center;
     text-decoration: none;
@@ -291,9 +287,12 @@ footer{
         display:grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
+    .hamburger{
+        margin: 1rem;
+    }
 }
  
-@media screen and (min-width:780px) {
+@media screen and (min-width:800px) {
     .nav-img{
         width: 5%;
     }
@@ -374,7 +373,7 @@ footer{
 }
     @media screen and (min-width:1200px) {
         .connect-text{
-            padding: 4rem 4rem 4rem 20rem;
+            padding: 4rem 4rem 4rem 15rem;
         }
         .subscribe{
             margin-left: 6rem;
