@@ -151,7 +151,7 @@ a{
 .connect-btn{
     background-color: #fff;
     color: #454843;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     text-transform: uppercase;
     font-size: .8rem;
     font-weight: 500;
@@ -257,7 +257,7 @@ footer{
 }
 
 .fa {
-    padding: 15px;
+    padding: 16px;
     font-size: 1.2rem;
     width: 30px;
     text-align: center;
@@ -372,6 +372,9 @@ footer{
     }
     .google-play{
         width: 45%;
+    }
+    .connect-btn{
+        font-size: 1.3rem;
     }
 }
     @media screen and (min-width:1200px) {
