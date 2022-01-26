@@ -72,6 +72,7 @@ p{
 padding: 1.5rem;
 }
 @media screen and (min-width:560px){
+    
     .row{
         display:grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

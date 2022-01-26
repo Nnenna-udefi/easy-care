@@ -1,19 +1,25 @@
-function validation(){
-    var email ="miriamudefi@gmail.com";
-    var password ="123456a";
+function $(id) {
+    return document.querySelector(id);
+}
 
-    var eMail = document.getElementById('email').value;
-    var passWord = document.getElementById('password').value;
+$('#form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const email ="miriamudefi@gmail.com";
+    const password ="123456a";
 
-    if((email == eMail) && (password == passWord)) {
-        swal("Welcome back!")
-        {
-            window.location.href = "../index/dash.html";
-        };
+    const mail = $('#email').value;
+    const passWord = $('#password').value;
+
+    if((email === mail) && (password === passWord)) {
+        swal("Welcome back!", {icon: 'success'});
+        
+        setTimeout(() => {
+            window.location.href = "../index/dash.html"; 
+        }, 1000);
+        
     }
     else{
         sweetAlert("Oops...", "Wrong Username or password");
     }
-
+})
     
-};
