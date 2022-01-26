@@ -61,8 +61,6 @@ nav{
     color: #004492;
     font-weight: 600;
 }
-
-
 .hero{
     background: linear-gradient(
             rgba(0, 68, 146, 0.44),
@@ -109,7 +107,8 @@ nav{
     font-size: 1.6rem;
     font-weight: 400;
     font-family: 'Lora', sans-serif;
-    line-height: 30px
+    line-height: 30px;
+    padding-top: 1rem;
 }
 
 h1{
@@ -301,8 +300,8 @@ span{
     color: #004492;
     text-align: center;
 }
-.blog-post{
-margin: 0 auto;
+.blog-post, .clients{
+padding: 1rem;
 }
 
 footer{
@@ -477,12 +476,11 @@ footer{
     }
 
 }
-@media screen and (max-width:890px){
+
+@media screen and (max-width:890px) {
     .nav-log{
         display: inline;
     }
-}
-@media screen and (max-width:890px) {
     .nav-img{
         width: 20%;
     }

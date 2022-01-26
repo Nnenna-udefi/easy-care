@@ -186,10 +186,10 @@ input{
     padding: 1.2rem 5rem;
     font-size: 1.2rem;
     border: 1.5px solid #5D5F5B;
-box-sizing: border-box;
-border-radius: 4px;
-color: #5D5F5B;
-margin: 1rem 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #5D5F5B;
+    margin: 1rem 0;
 
 }
 .input-icon i {
@@ -202,9 +202,8 @@ margin: 1rem 0;
 }
   
 .icon {
-    padding: 8px;
+    /* padding: 8px; */
     color: #5D5F5B;
-    /* min-width: 50px;    */
 }
 .input-field {
     width: 100%;
@@ -257,7 +256,7 @@ footer{
 }
 
 .fa {
-    padding: 16px;
+    padding: 18px;
     font-size: 1.2rem;
     width: 30px;
     text-align: center;
