@@ -23,7 +23,7 @@ nav{
 .menu{
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: #0E52A5;
     margin: 6px 0; 
     -webkit-transition: all 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
@@ -102,7 +102,7 @@ a{
 .badges1{
     background-color: #24BEB6;
     box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.25);
-    margin: 2rem 2rem 6rem 2rem;
+    margin: 2rem 2rem 6rem 0rem;
     padding: 4rem 1.5rem 2rem 1.5rem;
     color: #fff;
     width: 100%;
@@ -110,7 +110,7 @@ a{
 .badges2{
     background-color: #67DF6E;
     box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.25);
-    margin: 2rem 2rem 6rem 2rem;
+    margin: 2rem 2rem 6rem 0rem;
     padding: 4rem 1.5rem 2rem 1.5rem;
     color: #fff;
     width: 100%;
@@ -118,7 +118,7 @@ a{
 .badges3{
     background-color: #5E90E7;
     box-shadow: 5px 5px 19px rgba(0, 0, 0, 0.25);
-    margin: 2rem 2rem 6rem 2rem;
+    margin: 2rem 2rem 6rem 0rem;
     padding: 4rem 1.5rem 2rem 1.5rem;
     color: #fff;
     width: 100%;
@@ -202,7 +202,6 @@ input{
 }
   
 .icon {
-    /* padding: 8px; */
     color: #5D5F5B;
 }
 .input-field {
@@ -221,7 +220,7 @@ footer{
     color: #fff;
 }
 .footer{
-    padding: 5rem 5rem 0 5rem;
+    padding: 2rem 5rem 0 5rem;
 }
 .footer-items{
     margin: 0;
@@ -240,11 +239,11 @@ footer{
     font-weight: bold;
 }
 .footer-img-text{
-    font-size: 0.75rem;
+    font-size: 0.6rem;
     margin-top: 4rem;
     border-top: 1px solid white;
     bottom: 0;
-    text-align: right;
+    text-align: center;
     padding: 1rem;
 }
 .footer-img,
@@ -365,6 +364,11 @@ footer{
     .footer-items li{
         padding-bottom: 2rem;
     }
+    .badges2, 
+    .badges3,
+    .badges1{
+        margin: 2rem 2rem 6rem 2rem;
+    }
     .apple{
         width: 40%;
         
@@ -374,6 +378,13 @@ footer{
     }
     .connect-btn{
         font-size: 1.3rem;
+    }
+    .footer{
+        padding: 5rem 5rem 0 5rem;
+    }
+    .footer-img-text{
+        text-align: right;
+        font-size: 0.75rem;
     }
 }
     @media screen and (min-width:1200px) {

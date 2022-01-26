@@ -25,7 +25,7 @@ nav{
 .menu{
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: #0E52A5;
     margin: 6px 0; 
     -webkit-transition: all 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
@@ -94,12 +94,11 @@ nav{
     width: 100%;
     object-fit: cover;
     justify-content: space-between;
-    padding: 2rem;
     column-count: 2;
     margin: auto;
 }
 .partner-img img{
-    margin: 2rem;
+    margin:2rem 2rem 2rem .5rem;
 }
 .partner-text{
     color: #5D5F5B;
@@ -132,6 +131,7 @@ h2{
     background-color: #C7D9F9;
     
 }
+
 .services-text{
     font-size: 1.25rem;
     font-weight: 600;
@@ -168,11 +168,15 @@ a{
 }
 .intro{
     background-color: #F6F9F6;
-    padding: 4rem 2rem;
+    /* padding: 4rem 0; */
 }
 .intro img{
     width: 100%;
     object-fit: cover;
+}
+.intro-text{
+    padding: 2rem;
+    text-align: center;
 }
 .intro-link{
     color: #004492;
@@ -229,7 +233,7 @@ span{
 }
 .badges2{
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
-    margin: 2rem 2rem 6rem 2rem;
+    margin: 2rem 0.5rem 6rem 0.5rem;
     padding: 1.5rem;
     line-height:19px;
     position: relative;
@@ -300,7 +304,7 @@ span{
     color: #004492;
     text-align: center;
 }
-.blog-post, .clients{
+.blog-post{
 padding: 1rem;
 }
 
@@ -310,7 +314,7 @@ footer{
     
 }
 .footer{
-    padding: 5rem 5rem 0 5rem;
+    padding: 2rem 5rem 0 5rem;
 }
 .footer-items{
     margin: 0;
@@ -329,11 +333,11 @@ footer{
     font-weight: bold;
 }
 .footer-img-text{
-    font-size: 0.75rem;
+    font-size: 0.6rem;
     margin-top: 4rem;
     border-top: 1px solid white;
     bottom: 0;
-    text-align: right;
+    text-align: center;
     padding: 1rem;
 }
 .footer-logo{
@@ -342,6 +346,9 @@ footer{
 .footer-img,
 .footer-list{
     margin-top: 2rem;
+}
+.foot{
+    text-align: center;
 }
 
 .fa {
@@ -373,6 +380,7 @@ footer{
     text-transform: capitalize;
     margin-left: 3rem;
 }
+
 @media screen and (min-width:560px){
     .footer{
         display:grid;
@@ -406,6 +414,9 @@ footer{
     .services-p{
         width: 30%;
     }
+    .blog-post, .clients{
+        padding: 1rem;
+        }        
     .nav-list{
         margin: 0;
         padding: 0;
@@ -419,6 +430,10 @@ footer{
     }
     .intro{
         margin: 0 auto;
+        padding: 4rem 2rem;
+    }
+    .badges2{
+        margin: 2rem 2rem 6rem 2rem;
     }
     .services{
         background-color: #C7D9F9;
@@ -434,6 +449,7 @@ footer{
     .intro-text{
         width: 30%;
         margin-left: 6rem;
+        text-align: left;
     }
     .care-text{
         color: #fff;
@@ -473,6 +489,13 @@ footer{
     }
     .hero-btn{
         padding: .5rem .5rem;
+    }
+    .footer-img-text{
+        text-align: right;
+        font-size: 0.75rem;
+    }
+    .foot{
+        text-align: left;
     }
 
 }
