@@ -22,6 +22,9 @@ nav{
     margin: 0;
     padding: 0 2rem;
 }
+.nav-img{
+    width: 100%;
+  }
 h1, h2, h3{
     font-family: 'Lora', serif;
 }

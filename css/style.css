@@ -61,6 +61,9 @@ nav{
     color: #004492;
     font-weight: 600;
 }
+.nav-img{
+    width: 100%;
+}
 .hero{
     background: linear-gradient(
             rgba(0, 68, 146, 0.44),
@@ -168,7 +171,6 @@ a{
 }
 .intro{
     background-color: #F6F9F6;
-    /* padding: 4rem 0; */
 }
 .intro img{
     width: 100%;
@@ -403,7 +405,7 @@ footer{
         padding: 0 0 0 1rem;
     }
     .footer-list > p, .footer-link{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .footer-list > p{
         padding: 0 0 10px;
@@ -423,7 +425,7 @@ footer{
     }
     .fa{
         font-size: 1.5rem !important;
-        padding: 0;
+        /* padding: 0; */
     }
     .services-badges{
         column-count: 1.5;
@@ -437,9 +439,6 @@ footer{
 }
   
 @media screen and (min-width:800px) {
-    .nav-img{
-        width: 5%;
-    }
     .nav-log{
         display: none;
     }
@@ -546,9 +545,7 @@ footer{
     .nav-log{
         display: inline;
     }
-    .nav-img{
-        width: 20%;
-    }
+
     .nav-list{
         display: block;
         text-align: center;
