@@ -118,19 +118,18 @@ input{
   .active{
     background-color: #F1F3F2;
     border-radius: 0px 8px 8px 0px;
-    color: #001A41;
     margin-right: .7rem;
-    padding: 1rem;
+    padding: .2rem 1rem;
 
   }
-  .sidenav-list{
-      padding: 1rem;
+  .active a{
+    color: #001A41;
   }
+  
   .sidenav-list a{
       color: #fff;
   }
 
-  
   .sidenav-list i, .active i{
       color: white;
       margin-top: 1rem; 
@@ -139,6 +138,9 @@ input{
   .sidenav-list i:hover, .active i:hover{
     color: #001A41;
   }
+  .sidenav-list{
+    padding: 0 1rem;
+}
   
   .sidenav .closebtn {
     position: absolute;
@@ -147,10 +149,13 @@ input{
     font-size: 36px;
     margin-left: 50px;
   }
+  .closebtn{
+      color: #fff;
+  }
   .logout{
-      margin-top: 5rem;
+      margin-top: 2rem;
       border-top: 1px solid #F1F3F2;
-      padding: 2rem;
+      padding: 0 1rem;
   }
   .hero{
       padding: 1rem;
@@ -299,6 +304,16 @@ input{
     table{
         width: 100%;
         overflow-x: auto;
+    }
+    .logout{
+        margin-top: 5rem;
+        padding: 2rem;
+    }
+    .active{
+        padding: 1rem;
+    }
+    .sidenav-list{
+        padding: 1rem;
     }
 }
 @media screen and (max-width: 800px){

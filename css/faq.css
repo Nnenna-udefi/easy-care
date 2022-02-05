@@ -29,21 +29,21 @@ p{
     line-height: 1.7rem;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 1rem;
 }
 a{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
-.hero{
+.heroe{
     padding: 2rem 3rem;
     text-align: center;
 }
 
-.hero p{
+.heroe p{
     color: #454843;
+    padding: 1.5rem 0;
 }
-.hero a{
+.heroe a{
     background-color: #49C255;
     text-transform: capitalize;
     padding: 0.5rem 1rem;
@@ -59,12 +59,13 @@ margin: auto;
     color: #002E68;
     font-weight: 600;
     font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
 .accordion-text{
     background-color: #fff;
-border-radius: 6px;
-padding: 1rem 2rem;
-margin-bottom: 2rem;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
 }
 
 .accordion-text:hover{
@@ -115,10 +116,14 @@ margin-bottom: 2rem;
     margin-left: 3.5rem;
     margin-top: .5rem;
 }
-
-.input-icon {
+.contact-icons .fa{
     color: #006A64;
-    font-weight: 600;   
+    font-weight: 600;
+}
+.input-icon{
+    color: #006A64;
+    font-weight: 600;
+       
 }
 .input-icon p{
     padding-top: 1rem;
@@ -177,7 +182,7 @@ margin-bottom: 2rem;
     .row{
         display: flex;
     }
-    .hero{
+    .heroe{
         width: 70%;
         text-align: left;
     }
@@ -191,7 +196,7 @@ margin-bottom: 2rem;
         display: flex;
         align-items: center;
     }
-    .hero{
+    .heroe{
         padding: 10rem 12rem;
     }
     
